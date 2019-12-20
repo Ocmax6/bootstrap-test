@@ -1,0 +1,36 @@
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+}
+.small-img {
+    width: 50px;
+    height: 40px;
+}
+
+@media(max-width: 400px) { 
+    .logo-img {
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .small-img {
+        width: 40px;
+        height: 30px;
+        margin-top: 15px;
+    }
+    .m-text {
+        font-size: 50px;
+    }
+    .p-text {
+        text-align: center;
+    }
+    .c-text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .p-text2 {
+        font-size: 14px;
+        text-align: center;
+    }
+}
